@@ -3,7 +3,7 @@
     const allowedDomains = [
       "toolhub-ova.pages.dev",   // আপনার মূল ডোমেইন
       "www.toolhub-ova.pages.dev",
-      ""         // Localhost এ টেস্ট করার জন্য
+      "localhost"         // Localhost এ টেস্ট করার জন্য
     ];
 
     // বর্তমান domain চেক করুন
