@@ -1,8 +1,8 @@
 (function () {
     // Allowed domains (আপনি চাইলে যত খুশি domain দিতে পারবেন)
     const allowedDomains = [
-      "toolhub-ova.pages.dev",   // আপনার মূল ডোমেইন
-      "www.toolhub-ova.pages.dev",
+      "freebloggertheme.pages.dev",   // আপনার মূল ডোমেইন
+      "www.freebloggertheme.pages.dev",
       "localhost"         // Localhost এ টেস্ট করার জন্য
     ];
 
