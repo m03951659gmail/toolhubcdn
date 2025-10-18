@@ -1,11 +1,16 @@
-function loadScript(src, callback) {
-    const script = document.createElement('script');
-    script.src = src;
-    script.onload = callback;
-    document.head.appendChild(script);
-}
+(function () {
+    // Allowed domains (আপনি চাইলে যত খুশি domain দিতে পারবেন)
+    const allowedDomains = [
+      "toolhub-ova.pages.dev",   // আপনার মূল ডোমেইন
+      "www.toolhub-ova.pages.dev",
+      "localhost"         // Localhost এ টেস্ট করার জন্য
+    ];
 
-// নতুন ফিচার লোড করুন
-loadScript('domainblocked.js', function() {
-    console.log("New feature loaded!");
-});
+    // বর্তমান domain চেক করুন
+    const currentDomain = window.location.hostname;
+
+    if (!allowedDomains.includes(currentDomain)) {
+      // যদি allow না হয়, তাহলে Redirect করে অন্য পেজে পাঠান
+      window.location.href = "https://freewebshops.blogspot.com";
+    }
+  })();
