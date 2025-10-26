@@ -1,8 +1,8 @@
 (function () {
     // Allowed domains (আপনি চাইলে যত খুশি domain দিতে পারবেন)
     const allowedDomains = [
-      "freebloggertheme.pages.dev",   // আপনার মূল ডোমেইন
-      "www.freebloggertheme.pages.dev",
+      "onlinegamesb.xyz",   // আপনার মূল ডোমেইন
+      "www.onlinegamesb.xyz",
       "localhost"         // Localhost এ টেস্ট করার জন্য
     ];
 
