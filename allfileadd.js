@@ -3,6 +3,8 @@
     const allowedDomains = [
       "onlinegamesb.xyz",   // আপনার মূল ডোমেইন
       "www.onlinegamesb.xyz",
+      "onlinegamesbd.xyz",   // আপনার মূল ডোমেইন
+      "www.onlinegamesbd.xyz",
       "localhost"         // Localhost এ টেস্ট করার জন্য
     ];
 
